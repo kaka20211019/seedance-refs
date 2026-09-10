@@ -9,9 +9,16 @@
 - `assets/series_foundation_contact_sheet.png` — 系列基础角色设定参考图（故事版用）
   https://raw.githubusercontent.com/kaka20211019/seedance-refs/main/assets/series_foundation_contact_sheet.png
 
-## 声音参考（待补）
+## 声音参考
 
-`assets/voice/` 下放角色声音基准样本（WAV/MP3，每段 2–15 秒，干净无背景音），供 MiniMax H3 `reference_audios` 使用。
+**李白的声音基准（系列统一使用）**
+- `assets/voice/libai_voice_early_baidi_city_4lines.wav` — 10.8 秒，44.1kHz 单声道 WAV
+  https://raw.githubusercontent.com/kaka20211019/seedance-refs/main/assets/voice/libai_voice_early_baidi_city_4lines.wav
+  来源：《早发白帝城》成片（MiniMax H3 原生混音）经 Demucs 人声分离，按四句诗切出后合并，句间 0.5 秒静音。
+  第四句底下有轻微猿叫叠音（原片设定），其余三句干净。
+  用法：MiniMax H3 `reference_audios` 填此直链，提示词写"用参考音频 1 的声音"，并把台词放在引号里。
+
+放新样本的规则：WAV/MP3，每段 2–15 秒、合计 ≤15 秒，单人干净人声。
 
 ## 上传方式
 
